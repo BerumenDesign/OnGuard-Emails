@@ -1,0 +1,143 @@
+<mjml>
+  <mj-head>
+    <mj-title>Confirmation - OnGuard</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:200, 300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-wrapper padding="30px 0 0 0"></mj-wrapper>
+      <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="15px" color="#222" line-height="30px"></mj-text>
+      <mj-section padding="10px"></mj-section>
+      <mj-button font-weight="400" font-size="15px" color="#2c7f59" padding="0 0 30px 0" background-color="#fff"></mj-button>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .card {
+      margin-bottom: 20px;
+      background: #fff;
+      box-shadow: 0 3px 5px #ccc;
+      }
+      .header {
+      color: green;
+      font-size: 32px;
+      font-weight: 400;
+      font-height: 30px;
+      line-height: 40px;
+      }
+      .subtitle {
+      color: #666;
+      font-size: 24px;
+      text-align: center:
+      font-weight: 400;
+      font-height: 30px;
+      line-height: 40px;
+      }
+      .label {
+      color: #222;
+      font-size:12px;
+      font-family: Roboto;
+      text-transform: uppercase;
+      line-height: 50px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      }
+      .gray {
+      color: #555;
+      font-size: 14px;
+      line-height: 20px;
+      }
+      .user-icon {
+      height: 80px;
+      widht: 80px;
+      margin: 0 auto;
+      border-radius: 3px;
+      }
+      .line {
+      border-bottom: 1px solid #ebebeb;
+      padding: 10px 0;
+      }
+      .centered {
+      vertical-align: top;
+      text-align:center;}
+      h1 {
+      color:#006025;
+      font-weight: 200px
+      }
+      a {
+      color: green;
+      text-decoration: none;}
+
+    </mj-style>
+  </mj-head>
+
+
+  <mj-body background-color="#f2f2f2" padding-top="20px">
+
+    <mj-wrapper>
+      <mj-section css-class="card" background-color="#ebebeb" border-top="5px solid #2c7f59">
+
+        <mj-column width="100%">
+          <mj-text align="center">
+            <img css-class="user-icon" src="http://berumendesign.com/emails/images/group-confirmation.png" width="100px" height="100px" />
+            <h1 color="#006025">You just joined a group
+            </h1>
+            <h3>Hello Steve,</h3>
+            <p>You have joined the group <b>Field Technitians</b> administrated by <b>John Smith</b> <a href="#">(john@testemail.com)</a> </p>
+          </mj-text>
+          <mj-text align="center" font-weight="500">
+          </mj-text>
+
+        </mj-column>
+
+        <mj-column width="100%">
+          <mj-text align="center">
+            <p><b>You didn't accept any invitations to join this group?</b></p>
+
+
+          </mj-text>
+          <mj-button>Use this link to let us know</mj-button>
+
+        </mj-column>
+
+
+      </mj-section>
+
+
+
+      <mj-section css-class="card">
+        <mj-column>
+          <mj-image src="https://s3.amazonaws.com/onguard-email-images/onguard-loneworker-email-logo.png" align="center" height="68px" width="200px"></mj-image>
+          <mj-text align="center">
+            <p>For more information about your account visit us at
+              <br /> <a href="#">http://onguardlonesafety.com/</a></p>
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+
+
+
+
+
+
+
+
+
+      </mj-column>
+
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center">
+          Copyright 2018 Sens-Net Ltd. All rights reserved
+          <br /> Sender: 52.44.144.244
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+  </mj-body>
+</mjml>

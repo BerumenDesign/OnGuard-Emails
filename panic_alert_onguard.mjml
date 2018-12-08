@@ -1,0 +1,212 @@
+<mjml>
+  <mj-head>
+    <mj-title>Panic Alert - OnGuard</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="15px" color="#222" line-height="30px"></mj-text>
+      <mj-section padding="10px"></mj-section>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .card {
+      margin-bottom: 20px;
+      background: #fff;
+      box-shadow: 0 3px 5px #ccc;
+      }
+      .header {
+      color: #666;
+      font-size: 32px;
+      font-weight: 400;
+      font-height: 30px;
+      line-height: 40px;
+      }
+      .subtitle {
+      color: #666;
+      font-size: 24px;
+      text-align: center:
+      font-weight: 400;
+      font-height: 30px;
+      line-height: 40px;
+      }
+      .label {
+      color: #222;
+      font-size:12px;
+      font-family: Roboto;
+      text-transform: uppercase;
+      line-height: 50px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      }
+      .gray {
+      color: #555;
+      font-size: 14px;
+      line-height: 20px;
+      }
+      .user-icon {
+      height: 120px;
+      widht: 120px;
+      margin: 0 auto;
+      border-radius: 3px;
+      }
+      .line {
+      border-bottom: 1px solid #ebebeb;
+      padding: 10px 0;
+      }
+      td {
+      vertical-align: top;}
+      a {
+      color: green;
+      text-decoration: none;}
+
+    </mj-style>
+  </mj-head>
+
+
+  <mj-body background-color="#f2f2f2">
+
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://s3.amazonaws.com/onguard-email-images/onguard-loneworker-email-logo.png" align="center" height="68px" width="200px"></mj-image>
+      </mj-column>
+
+    </mj-section>
+
+
+
+    <mj-text>
+      <h1 align="center" class="header">
+        <img src="http://berumendesign.com/emails/images/user-state-panic.png" height="30px" width="30px" />
+        Panic Alert</h1>
+    </mj-text>
+
+
+    <mj-section css-class="card line">
+      <mj-column>
+        <mj-text>
+          <span class="label">Received at:</span><br />
+          22 / Jul / 2016 17:25:28 MST <br /><span class="gray">22 / Jul / 2016 23:25:28 UTC</span>
+        </mj-text>
+
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          <span class="label">Previous State:</span><br />
+          $(userPreviousState)
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section css-class="card">
+      <mj-column width="100%">
+        <mj-text align="center"><span class="subtitle">Description</span></mj-text>
+      </mj-column>
+
+
+      <mj-column width="30%">
+        <mj-text align="center">
+          <img src="http://berumendesign.com/emails/images/user-icon.png" class="user-icon" />
+        </mj-text>
+      </mj-column>
+      <mj-column width="70%">
+        <mj-text padding="10px 20px">
+          <table width="100%">
+            <tr class="line">
+              <td css-class="label-td"><span class="label">Name:</span></td>
+              <td width="65%"><p>${userName}</p></td>
+            </tr>
+            <tr class="line">
+              <td width="35%"><span class="label">Gender:</span></td>
+              <td width="65%"><p>${userGender}</p></td>
+            </tr>
+            <tr class="line">
+              <td width="35%"><span class="label">Height:</span></td>
+              <td width="65%"><p>${userHt}</p></td>
+            </tr>
+            <tr class="line">
+              <td width="35%"><span class="label">Hair Color:</span></td>
+              <td width="65%"><p>${userHair}</p></td>
+            </tr>
+            <tr class="line">
+              <td width="35%"><span class="label">Alergies:</span></td>
+              <td width="65%">
+                <p>${userAllergies}</p>
+              </td>
+            </tr>
+            <tr class="line">
+              <td width="25%"><span class="label">Vehicle:</span></td>
+              <td width="65%">
+                <p>${userVehicle}</p>
+              </td>
+            </tr>
+            <tr>
+              <td width="25%"><span class="label">Mobile:</span></td>
+              <td width="65%">
+                <p>${userPhoneNumber}</p>
+              </td>
+            </tr>
+
+          </table>
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-hero mode="fixed-height" height="500px" background-width="600px" background-height="500px" background-url="http://ichef-1.bbci.co.uk/news/1024/media/images/82931000/jpg/_82931280_82931279.jpg" background-color="#2a3448" padding="100px 0px" />
+
+    <mj-section css-class="card">
+      <mj-column width="100%">
+        <mj-text align="center"><span class="subtitle">Location</span></mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text>
+          <table width="100%">
+            <tr class="line">
+              <td width="35%"><span class="label">Name:</span></td>
+              <td width="65%"><p>${locationName}  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></td>
+            </tr>
+            <tr class="line">
+              <td width="35%"><span class="label">Address:</span></td>
+              <td width="65%"><p>${address}</p></td>
+            </tr>
+            <tr>
+              <td width="35%"><span class="label">LSD:</span></td>
+              <td width="65%"><p>${locationCodeDetails}</p></td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+    </mj-column>
+
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td style="padding:20px;" align="center">
+                <a style="padding: 20px;" href="#">Terms</a>|<a style="padding: 20px;" href="#" >Privacy Policy</a>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+  </mj-body>
+</mjml>

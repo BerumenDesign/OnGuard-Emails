@@ -1,0 +1,175 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome - OnGuard</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:200, 300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-wrapper padding="30px 0 0 0"></mj-wrapper>
+      <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="15px" color="#222" line-height="30px"></mj-text>
+      <mj-section padding="30px"></mj-section>
+      <mj-button font-weight="400" font-size="15px" color="#2c7f59" padding="0 0 30px 0" background-color="#fff"></mj-button>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .card {
+      margin-bottom: 20px;
+      background: #fff;
+      box-shadow: 0 3px 5px #ccc;
+      }
+      .header {
+      color: white;
+      font-size: 32px;
+      font-weight: 500;
+      font-height: 30px;
+      line-height: 40px;
+      text-align:center;
+      padding-top:100px;
+      text-transform: uppercase;
+      }
+      .subtitle {
+      color: #666;
+      font-size: 24px;
+      text-align: center:
+      font-weight: 400;
+      font-height: 30px;
+      line-height: 40px;
+      }
+      .label {
+      color: #222;
+      font-size:12px;
+      font-family: Roboto;
+      text-transform: uppercase;
+      line-height: 50px;
+      font-weight: 600;
+      letter-spacing: .5px;
+      }
+      .gray {
+      color: #555;
+      font-size: 14px;
+      line-height: 20px;
+      }
+      .user-icon {
+      height: 80px;
+      widht: 80px;
+      margin: 0 auto;
+      border-radius: 3px;
+      }
+      .line {
+      border-bottom: 1px solid #ebebeb;
+      padding: 10px 0;
+      }
+      .centered {
+      vertical-align: top;
+      text-align:center;}
+      h1 {
+      color:#006025;
+      font-weight: 200px
+      }
+      a {
+      color: green;
+      text-decoration: none;}
+
+    </mj-style>
+  </mj-head>
+
+
+  <mj-body background-color="#f2f2f2" padding-top="20px">
+
+    <mj-wrapper>
+
+
+
+      <mj-section border-bottom="5px solid red" css-class="card">
+        <mj-column>
+          <mj-image src="https://s3.amazonaws.com/onguard-email-images/onguard-loneworker-email-logo.png" align="center" height="68px" width="200px"></mj-image>
+        </mj-column>
+
+
+      </mj-section>
+
+      <mj-hero mode="fixed-height" height="300px" background-width="600px" background-height="300px" background-url="http://berumendesign.com/emails/images/phone_man.jpg">
+        <mj-text>
+          <h1 class="header">Lone worker<br/>protection system</h1>
+        </mj-text>
+      </mj-hero>
+
+      <mj-section background-color="#ebebeb">
+        <mj-column width="100%">
+        <mj-text>
+          <h3>Hello Steve,</h3>
+<p>
+          Now that you have installed the OnGuard app, please take a few moments to discover the benefits we offer.<br/>
+          <br/>
+
+          The OnGuard worker safety solution is designed to monitor employee safety 24 hours a day through the use of mainstream or specialized mobile devices.<br/>
+          <br/>
+
+          With a completely customizable monitoring platform, OnGuard is designed to monitor, record and report employee locations, facilitate simplified employee check-in at predetermined times, remind an employee they are required to check-in, detect an employee in a Man Down situation and allow an employee to summon help in an emergency situation.<br/>
+  <br/></p>
+          
+          	<h3 style="text-align: left">Service features:</h3>
+
+								<ul style="text-align: left">
+									<li>24/7/365 Emergency response service</li>
+									<li>Proactive employee check-in monitoring</li>
+									<li>Real time employee location reporting</li>
+									<li>Supports Man Down feature on Sonim phone</li>
+									<li>Alert Management & Alarm Escalation</li>
+									<li>Customizable monitoring plans available</li>
+									<li>Voice recording & two way conferencing</li>
+									<li>Reports</li>
+								</ul>
+
+        </mj-text></mj-column>
+        <mj-column width="100%">
+<mj-divider border-width="1px" border-color="#ccc"></mj-divider>
+
+        <mj-text align="center" padding-top="20px">Not Steve Smith?</mj-text>
+
+      <mj-button href="#">Please use this link to let us know</mj-button>
+</mj-column>
+      </mj-section>
+
+
+
+      <mj-section css-class="card">
+        <mj-column>
+          <mj-image src="https://s3.amazonaws.com/onguard-email-images/onguard-loneworker-email-logo.png" align="center" height="68px" width="200px"></mj-image>
+          <mj-text align="center">
+            <p>For more information about your account visit us at
+              <br /> <a href="#">http://onguardlonesafety.com/</a></p>
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+      </mj-column>
+
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center">
+          Copyright 2018 Sens-Net Ltd. All rights reserved
+          <br /> Sender: 52.44.144.244
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+  </mj-body>
+</mjml>
